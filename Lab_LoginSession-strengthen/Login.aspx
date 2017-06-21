@@ -53,7 +53,10 @@
                 &nbsp;</td>
             <td>
                 <asp:Button ID="btnLogin" runat="server" onclick="btnLogin_Click" Text="Login" 
-                    Width="98px" />
+                    Width="75px" />
+                &nbsp;
+                <asp:Button ID="btnLogout" runat="server" onclick="btnLogout_Click" Text="Logout" 
+                    Width="75px" />
             </td>
             
         </tr>

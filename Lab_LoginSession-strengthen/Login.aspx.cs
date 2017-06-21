@@ -43,4 +43,9 @@ public partial class Login : System.Web.UI.Page
             Response.Redirect(Session["returnUrl"].ToString());
         }
     }
+
+    protected void btnLogout_Click(object sender, EventArgs e)
+    {
+        Session["userName"] = null;
+    }
 }
